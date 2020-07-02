@@ -1,0 +1,327 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  /* overflow-x: hidden; */
+}
+
+path.subunit:hover {
+  fill-opacity: 0.4;
+}
+
+#india-states-cases tr:hover {
+  background-color: #535C68;
+}
+#india-states-cases td:hover {
+  color:#ffffff;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 5px;
+  font: 12px sans-serif;
+  background: #272727ef;
+  border-bottom: 4px solid #021bff;
+  pointer-events: none;
+  width: 200px;
+}
+
+.tooltip table {
+  width: 100%;
+  border: 1px dashed #e2e0e0;
+}
+
+.tooltip thead,
+.tooltip h3 {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tooltip th,
+.tooltip td,
+#india-cases th,
+#india-cases td,
+#india-today-cases th,
+#india-today-cases td {
+  border: none;
+  vertical-align: center;
+  text-align: center;
+  padding: 0.25rem;
+  vertical-align: top;
+  /* padding: 5px; */
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  text-align: left;
+}
+
+table.table th,
+table.table td {
+  padding-top: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.tooltip table {
+  color: #f0ffff;
+}
+
+.tooltip th,
+.tooltip td {
+  vertical-align: center;
+  text-align: center;
+  padding: 5px;
+  border: none;
+}
+
+.tooltip th {
+  font-size: 16px;
+  border-bottom: 2px solid #fff1f1;
+}
+
+.tooltip td {
+  font-size: 16px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+#india-cases,
+#india-today-cases {
+  margin: 5px 20px;
+  padding: 10px 40px;
+  min-width: 300px;
+  max-width: 900px;
+  max-height: 600px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.canvasjs-chart-credit {
+  display: none !important;
+}
+
+#india-statewise-cases {
+  padding: 10px 40px;
+  min-width: 300px;
+  max-width: 900px;
+  max-height: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #EAF0F1;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.bg {
+  background-color: #fafefd;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#india-statewise-cases tr {
+  border-bottom: 1px dashed coral;
+}
+
+a {
+  color: #7dff04;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.4s ease-out;
+}
+
+a:hover {
+  color: #0bc238;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover::after {
+  border-color: #fafafa;
+  right: 0;
+}
+
+a::after {
+  border-radius: 1em;
+  border-top: 1px solid #f8f8f8;
+  content: '';
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+  transition: right 0.5s cubic-bezier(0, 0.5, 0, 1), all 0.4s ease-out;
+}
+
+#map {
+  margin: auto;
+
+}
+
+/* loader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader {
+  color: #ff0101;
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+
+.footer_style{
+  background-color: #0ABDE3!important;
+}
+
+.footer_style p,a {
+  margin-bottom: 0!important;
+  color: white;
+}
+
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 500px) {
+  #india-cases,
+  #india-today-cases {
+    margin: 10px 5px;
+    padding: 10px 5px;
+  }
+
+  #india-statewise-cases {
+    padding: 10px 5px;
+  }
+}
+
