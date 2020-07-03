@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Covid's Log in India & Worldwide</title>
+  	<link rel="icon" href="img/virus.png">
 	<?php include'link/links.php'; ?>
 	<?php include'css/world_css.php'; ?>
 	<link rel="stylesheet" type="text/css" href="css/world_css1.css">
@@ -9,12 +10,12 @@
 <body onload="fetch()">
 
 <ul>
-    <li><img src="img/logo1.png" ALT="Logo" width="50px" height="50px"></li>
-    <li><a class="active" href="india.php">Home</a></li>
-    <li><a href="#">WorldwiseCases</a></li>
-    <li><a href="aboutus.php">About Us</a></li>
-    <li><a href="https://www.roboslog.in/contactus/">Contact</a></li>
+    <li><img src="img/logo.gif" ALT="Logo" width="50px" height="50px"style="padding:5px;"></li>
+    <li><a class="active" href="index.php">Home</a></li>
+    <li><a href="#worldcases">CasesGlobally</a></li>
+    <li><a href="team.php">Team</a></li>
   </ul>
+
 
 <div class="main_header">
 	<div class="row w-100 h-100">
@@ -231,8 +232,7 @@
 <!---Footer --->
   <footer class="mt-5">
   <div class="footer_style text-black text-center container-fluid">
-    <p style="text-align: center;">Copyright by Roboslog @Developed by Rehan Khan
-    </p>
+    <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html">Click here for privacy detail</a></p>
   </div>
 </footer>
 

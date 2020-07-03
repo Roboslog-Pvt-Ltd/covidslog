@@ -3,7 +3,8 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=no">
-  <title>covid-19 india</title>
+  <title>Covid's Log in India & Worldwide</title>
+  <link rel="icon" href="img/virus.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/india.css">
   <link rel="stylesheet" type="text/css" href="css/india1.css">
@@ -17,21 +18,35 @@
       <div class="loader">Loading...</div>
     </div>
   </div>
-  <!---Navbar-->
+  <!---Navbar
   <ul>
-    <li><img src="img/logo1.png" ALT="Logo" width="50px" height="50px"></li>
+    <li><img src="img/logo.gif" ALT="Logo" width="50px" height="50px"style="padding:5px;"></li>
     <li><a class="active" href="#home">Home</a></li>
-    <li><a href="world.php">WorldwiseCases</a></li>
-    <li><a href="aboutus.php">About Us</a></li>
-    <li><a href="https://www.roboslog.in/contactus/">Contact Us</a></li>
+    <li><a href="world.php">CasesGlobally</a></li>
+    <li><a href="team.php">Team</a></li>
   </ul>
-
+-->
+<nav class="navbar navbar-light navbar-expand-md" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav main-nav">
+                  <li><img src="img/logo.gif" ALT="Logo" width="50px" height="50px"style="padding:5px;"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" id="home" href="#home">Home </a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="world.php">CasesGlobally</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="team.php">Team </a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
 
   <!-- Map-->
   <div id="page" style="display: none;">
-    <h1 style="text-align: center;">Covid-19 Situation in India.</h1>
+    <h1 style="text-align: center;">Covid-19 cases in India</h1>
     <div class="container">
-      <div id="india-cases">
+      <div id="india-cases" style="border-style: solid; border-width: thick;">
         <table class="table table-responsive">
           <thead>
             <tr>
@@ -46,7 +61,7 @@
       </div>
       <div id="updated-at"></div>
       <div id="map"></div>
-      <div id="india-today-cases">
+      <div id="india-today-cases" style="border-style: solid; border-width: thick;">
         <table class="table table-responsive">
           <thead>
             <tr>
@@ -68,7 +83,7 @@
         <div id="chartContainer4" style="padding-right:30px;height: 600px; width: 45%; margin-top: 25px;display:inline-block;"></div>
         <div id="chartContainer7" style="padding-left:30px;height: 103vh; width: 45%; margin-top: 25px;display:inline-block;"></div>
         <h1 style="text-align: center; text-decoration: underline;">Statewise Cases in India</h1>
-        <div id="india-statewise-cases" style="overflow-x:scroll;">
+        <div id="india-statewise-cases" style="overflow-x:scroll; border-style: solid; border-width: thick;">
           <table class="table table-responsive">
             <thead>
               <tr style="color: #fff; background: #2C3335;">
@@ -85,8 +100,7 @@
         <!---Footer --->
         <footer class="mt-5">
         <div class="footer_style text-black text-center container-fluid">
-          <p style="text-align: center;">Copyright by Roboslog @Developed by Rehan Khan
-          </p>
+          <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html" style="color: #5256B3">Click here for privacy detail</a></p>
         </div>
       </footer>
 

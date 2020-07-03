@@ -69,16 +69,7 @@ html{
 	background-color: #fbfafd;
 }
 
-/* Footer*/
 
-.footer_style{
-	background-color: #0ABDE3!important;
-}
-
-.footer_style p,a {
-	margin-bottom: 0!important;
-	color: white;
-}
 
 /* Top scroll*/
 

@@ -221,14 +221,6 @@ a::after {
   animation: load6 1.7s infinite ease, round 1.7s infinite ease;
 }
 
-.footer_style{
-  background-color: #0ABDE3!important;
-}
-
-.footer_style p,a {
-  margin-bottom: 0!important;
-  color: white;
-}
 
 @-webkit-keyframes load6 {
   0% {
