@@ -32,7 +32,7 @@
                 id="navcol-1">
                 <ul class="nav navbar-nav main-nav">
                   <li><img src="img/logo.gif" ALT="Logo" width="50px" height="50px"style="padding:5px;"></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" id="home" href="#home">Home </a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" id="home" href="index.php">Home </a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="world.php">CasesGlobally</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="team.php">Team </a></li>
                     <li class="nav-item" role="presentation"></li>
@@ -80,7 +80,7 @@
         <div id="chartContainer6" style="padding-left:30px;height: 300px; width: 45%; margin-top: 25px;margin-left:10px;display:inline-block;"></div>
         <div id="chartContainer1" style="padding-right:40px;height: 600px; width: 45%; margin-top: 25px;display:inline-block;"></div>
         <div id="chartContainer2" style="padding-left:30px;height: 600px; width: 45%; margin-top: 25px;display:inline-block;"></div>
-        <div id="chartContainer4" style="padding-right:30px;height: 600px; width: 45%; margin-top: 25px;display:inline-block;"></div>
+        <div id="chartContainer4" style="padding-right:30px;height: 103vh; width: 46%; margin-top: 25px;display:inline-block;"></div>
         <div id="chartContainer7" style="padding-left:30px;height: 103vh; width: 45%; margin-top: 25px;display:inline-block;"></div>
         <h1 style="text-align: center; text-decoration: underline;">Statewise Cases in India</h1>
         <div id="india-statewise-cases" style="overflow-x:scroll; border-style: solid; border-width: thick;">
@@ -100,7 +100,7 @@
         <!---Footer --->
         <footer class="mt-5">
         <div class="footer_style text-black text-center container-fluid">
-          <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html" style="color: #5256B3">Click here for privacy detail</a></p>
+          <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html" style="color: #5256B3; text-decoration: none;"><br>Click here for privacy detail</a></p>
         </div>
       </footer>
 
@@ -115,6 +115,7 @@
     integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js"></script>
   <script src="js/src.js"></script>
+  <script src="js/prefixfree.dynamic-dom.js"></script>
 </body>
 
 </html>

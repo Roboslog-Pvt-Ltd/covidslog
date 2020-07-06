@@ -232,7 +232,7 @@
 <!---Footer --->
   <footer class="mt-5">
   <div class="footer_style text-black text-center container-fluid">
-    <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html">Click here for privacy detail</a></p>
+    <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html"><br>Click here for privacy detail</a></p>
   </div>
 </footer>
 

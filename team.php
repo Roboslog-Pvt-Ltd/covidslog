@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/4-Column-Team-Block---Circles.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Menu.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md" style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <div><a class="navbar-brand d-none" href="#"> </a>
-              <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+              <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            </div>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav main-nav">
@@ -46,7 +45,7 @@
         <!-- Row -->
         <div class="row">
           <div class="col-md-12">
-            <img src="img/rehan.PNG" alt="wrapkit" class="img-fluid rounded-circle" />
+            <img src="img/rehan.PNG" alt="Rehan's Image" class="img-fluid rounded-circle" />
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -71,13 +70,13 @@
         <!-- Row -->
         <div class="row">
           <div class="col-md-12">
-            <img src="img/1.jpeg" alt="wrapkit" class="img-fluid rounded-circle" />
+            <img src="img/1.jpeg" alt="Avhijit Image" class="img-fluid rounded-circle" />
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h5 class="mt-4 font-weight-medium mb-0">Avhijit Nair</h5>
               <h6 class="subtitle mb-3">Web Developer</h6>
-              <p>Hi, I'm a 3rd year of Computer Science and Engineering at VIT,AP Campus undergrad. I have a good grasp at Java, JavaScript, Html, CSS ,Python and R.</p>
+              <p>Hi, I'm a Computer Science and Engineering undergrad at VIT,AP Campus. I have a good grasp at Java, web technologies,Python and R. I am also an ML enthusiast.</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="https://github.com/Avhijit-codeboy" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/avhijit-nair-99077416b" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
@@ -94,7 +93,7 @@
         <!-- Row -->
         <div class="row">
           <div class="col-md-12">
-            <img src="img/2.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            <img src="img/2.jpg" alt="AkshunImage" class="img-fluid rounded-circle" />
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -117,7 +116,7 @@
         <!-- Row -->
         <div class="row">
           <div class="col-md-12">
-            <img src="img/3.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            <img src="img/3.jpg" alt="Shubankar Image" class="img-fluid rounded-circle" />
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -141,7 +140,7 @@
 <!---Footer --->
         <footer class="mt-5">
         <div class="footer_style text-black text-center container-fluid">
-          <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html">Click here for privacy detail</a>
+          <p style="text-align: center;">Developed by Rehan Khan @ Copyright by Roboslog <a href="http://stemslog.com/covid_privacy.html"><br>Click here for privacy detail</a>
           </p>
         </div>
       </footer>

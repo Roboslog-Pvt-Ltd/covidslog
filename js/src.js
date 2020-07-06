@@ -93,6 +93,7 @@ function drawSubUnits(data) {
       tooltip
         .transition()
         .duration(200)
+        .style("visibility","visible")
         .style("opacity", 0.9);
     })
     .on("mousemove", function (t) {

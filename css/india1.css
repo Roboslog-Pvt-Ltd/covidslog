@@ -18,7 +18,8 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover {
-    background-color: #111;
-    box-shadow:1px 1px 3px #000000;
+  
+  a:hover{
+    background:transparent;
+    color:#A9A9A9;
   }
