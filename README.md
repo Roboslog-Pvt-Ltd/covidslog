@@ -21,5 +21,5 @@ How to run:
 
 - Now in the browser type on localhost/phpmyadmin/ and click on Import on the right side and import saas.sql
 
-- Place the downloaded source code in htdocs folder of the Xampp folder created by default on installing Xampp & now type localhost/htdocs/corona_tracker/index.php in the browser and there you go!
+- Place the downloaded source code in htdocs folder of the Xampp folder created by default on installing Xampp & now type localhost/htdocs/covislog/index.php in the browser and there you go!
 ```
