@@ -1,1 +1,1 @@
-# covidslog
+# Covidslog [![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)](https://rehankhan.netlify.app/) [![Author -Avhijit Nair](https://img.shields.io/badge/Author-Avhijit%20Nair-blue)](https://github.com/Avhijit-codeboy)
