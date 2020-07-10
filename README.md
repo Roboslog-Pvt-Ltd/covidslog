@@ -2,7 +2,7 @@
 - This website was created as an Internship project for Roboslog Pvt Ltd.
 - A live covid-19 website that gives you information about what is corona-virus, its symptoms, preventive measures and all the live cases around the globe and specially INDIA (State-wise).
 
-**Wanna take look at my website??** 👉🏻👉🏻[ Visit Webiste](http://saasrha.epizy.com/)
+**Wanna take look at my website??** 👉🏻👉🏻[ Visit Webiste](http://covidslog.co/)
 
 ---
 
